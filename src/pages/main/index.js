@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Row, Col, Card, Spin } from "antd";
+import { Row, Col, Card } from "antd";
 
 import api from "../../services/api";
 import "antd/dist/antd.css";
