@@ -1,0 +1,15 @@
+#country-select {
+  max-width: 600px;
+  margin: 20px auto 0;
+  padding: 0 40px;
+}
+
+#country-select #select {
+  width: 100%;
+}
+
+#country-select small {
+  color: #555;
+  display: flex;
+  justify-content: flex-end;
+}

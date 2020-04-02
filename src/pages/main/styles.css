@@ -1,0 +1,95 @@
+.country-list {
+  margin: 20px auto 0;
+  padding: 0 40px;
+}
+
+.country-list strong {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.country-list hr {
+  border-color: #fafafa;
+}
+
+.country-list .ant-card,
+.country-list .inner-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.country-list .inner-container {
+  padding: 5px 15px;
+}
+
+.country-list .ant-card p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.country-list .subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.country-list .bullet.new {
+  background: #f4c363;
+}
+.country-list .bullet.active {
+  background: #ff7875;
+}
+.country-list .bullet.recovered {
+  background: #52c41a;
+}
+
+.country-list .bullet {
+  height: 6px;
+  width: 6px;
+  border-radius: 6px;
+  float: left;
+  margin: 9px;
+}
+
+.country-list .statistics-total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.country-list .statistics-total .value {
+  font-weight: bold;
+}
+
+.country-list .statistics-total .total {
+  margin-bottom: 0;
+}
+
+.country-list .ant-card {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.country-list .ant-card.hidden {
+  opacity: 0;
+}
+
+#overlay.show {
+  opacity: 0.5;
+}
+#overlay {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.8s;
+  background: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
